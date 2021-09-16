@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/splash">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/textview1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash_icon" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/textview1"
+        android:text="Crazy Fish!"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fro"
+        android:text="from:"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/image"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fro"
+        android:text="24/7 programmers"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#1d251c"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>
